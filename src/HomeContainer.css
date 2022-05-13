@@ -1,0 +1,231 @@
+@font-face {
+    font-family: headliner45;
+    src: url(./fonts/headliner_no_45/HeadlinerNo.45\ DEMO.ttf);
+  }
+
+  @font-face {
+    font-family: squartiqa;
+    src: url(./fonts/Squartiqa_4F_Light_Italic/Squartiqa4FLight-Italic.otf);
+  }
+
+.more-btn{
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: squartiqa;
+    margin: 0 5px;
+}
+
+/* .register-btn-2{
+    padding: 10px 20px;
+    border: none;
+    background-color: #f6bd14;
+    color: white;
+    font-family: squartiqa;
+    margin: 0 5px;
+} */
+
+.home-container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 60% 40%;
+}
+
+.prm-text{
+    font-family: headliner45;
+    font-weight: 500;
+    font-size: 80px;
+}
+
+.text-box{
+
+  margin-top: 200px;
+}
+
+.main-text{
+    text-align: center;
+    height: 89vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icon{
+    margin: 0 20px;
+}
+
+.footer-1{
+    height: 100px;
+    background-color: #1e132b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+/* .footer{
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    align-items: center;
+} */
+
+.nse-icon{
+    font-family: squartiqa;
+    margin: 0 10px;
+    color: white;
+}
+
+.pubg-icon{
+    height:60px;
+    margin: 0 10px;
+}
+
+.jamaica-icon{
+    height: 60px;
+}
+
+.tencent-icon{
+    height:100px;
+    margin: 0 10px;
+}
+.quanton-icon{
+    height:60px;
+    margin: 0 10px;
+}
+
+.grid-1{
+    background-image:linear-gradient( rgba(197, 187, 154, 0.9), rgba(246, 189, 0, 0.9) ), url(./images/learn.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.grid-2-logo{
+    height: 200px;
+}
+
+.grid-2{
+    text-align: center;
+    height: 100vh;
+    color: black;
+    /* background-image:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(./images/flamebackground2.gif); */
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.grid-2-char-bg{
+    height: 600px;
+    bottom: 0;
+}
+
+.grid-2-char-cont{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+}
+
+.gird-2-logo-cont{
+    margin-top: 60px;
+    position: fixed;
+    z-index: 50;
+    /* bottom: 0; */
+}
+
+.grid-2-info{
+    margin-top: 110px;
+}
+
+.admission-price{
+    color: rgb(0, 0, 0);
+    font-family: squartiqa;
+    font-weight: 400;
+}
+
+.gird-2-info-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date{
+    color: rgb(0, 0, 0);
+    font-family: squartiqa;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 1114px) {
+    .home-container{
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .grid-2-logo{
+        height: 100px;
+    }
+
+    .grid-2{
+        display: none;
+    }
+
+    .grid-2-char-cont{
+        display: flex;
+        position: static;
+        
+       
+    }
+
+    .grid-2-char-bg{
+        height: 400px;
+    }
+  
+    .grid-2-logo{
+        height: 200px;
+        position: absolute;
+    }
+  }
+
+  @media only screen and (max-width: 610px){
+    .footer-1{
+        transform: scale(0.8);
+        background-color: transparent;
+    }
+  }
+
+  
+
+  @media only screen and (max-width: 481px) {
+        .grid-1{
+            height: 100%;
+            width: 100%;
+        }
+
+        .home-container{
+            width: 100%;
+            height: 812px;
+        }
+
+        .main-text{
+             display: flex;
+             align-items: center;
+        }
+
+        .footer-1{
+            transform: scale(0.5);
+            
+            width: 100%;
+        }
+
+        .text-box{
+            margin-top:50px;
+            margin-bottom: 0;
+          }
+  }

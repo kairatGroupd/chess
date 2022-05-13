@@ -1,0 +1,179 @@
+@font-face {
+    font-family: headliner45;
+    src: url(./fonts/headliner_no_45/HeadlinerNo.45\ DEMO.ttf);
+  }
+
+  @font-face {
+    font-family: squartiqa;
+    src: url(./fonts/Squartiqa_4F_Light_Italic/Squartiqa4FLight-Italic.otf);
+  }
+
+  @font-face {
+    font-family: verFont;
+    src: url(./fonts/Verb-Font/verbcondregular-webfont.ttf);
+  }
+
+  @font-face {
+    font-family: cityboys;
+    src: url(./fonts/cityboys/CityBoysSoft-Regular.otf);
+  }
+
+.more-info{
+    display: flex;
+    flex-direction: row;
+   
+  }  
+
+.more-inf{
+  margin: 0;
+  padding: 0;
+  height: ;
+}  
+
+li{
+    font-family: verFont;
+}
+
+   h2, .headers{
+      font-family: squartiqa;
+  }
+
+.register-btn{
+    padding: 50px 70px;
+    font-size: 30px;
+    color: white;
+    font-family: squartiqa;
+    background-color: black;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+} 
+
+.register-btn:hover{
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: #f6bd14;
+    color: black;
+    transition: 1000ms ease;
+}
+
+.register-btn-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}  
+
+.more-info{
+    background-color: whitesmoke;
+    height: 150vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+video{
+  outline: nonep;
+}
+
+.description{
+    padding: 0 20px;
+}
+
+.prize-info{
+  text-align: ;
+  
+}
+
+.prize-list{
+  text-align: ce;
+}
+
+.Rules{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.room-vid{
+    height: 400px;
+}
+
+@media only screen and (max-width: 1588px){
+
+    .more-info{
+      display: flex;
+      flex-direction: column;
+      height: 1900px;
+    }  
+}
+
+@media only screen and (max-width: 774px){
+  .room-vid{
+    width: 500px;
+  }
+
+  .register-btn-cont{
+    height: 100px;
+  }
+
+  .register-btn{
+transform: scale(0.6);   
+  }
+
+  .more-info{
+    height: 2400px;
+  }
+}
+
+@media only screen and (max-width: 572px){
+    .room-vid{
+      transform: scale(0.6);
+    }
+
+    .room-vid-cont{
+      display: flex;
+      justify-content: center;
+      width: auto;
+     
+    }
+
+    .more-inf{
+      height: 100%;
+    }
+
+    .more-info{
+      height: 2600px;
+    }
+}
+
+@media only screen and (max-width: 418px){
+
+}
+
+@media only screen and (max-width: 450px){
+    .more-info{
+      height: 3400px;
+    }
+
+    h2{
+      font-size: 15px;
+    }
+  
+    .headers{
+      font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 376px){
+  .more-info{
+    height: 3500px;
+  }
+
+ 
+}
+
+@media only screen and (max-width: 320px){
+  .more-info{
+    height: 3700px;
+  }
+}
